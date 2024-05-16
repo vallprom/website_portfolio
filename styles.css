@@ -1,0 +1,82 @@
+/* Warna Pastel */
+:root {
+    --warna-latar: #D7E4C0;  /* Warna latar belakang pastel muda */
+    --warna-utama: #C6DCBA;  /* Warna elemen utama (seperti header, navigasi) */
+    --warna-teks: #333;     /* Warna teks isi */
+    --warna-link: #85bccf;  /* Warna tautan */
+    --warna-border: #e0ebeb; /* Warna border */
+  }
+  
+  /* Layout */
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  header {
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--warna-utama);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: var(--warna-teks);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Jarak antar section */
+  }
+  
+  section {
+    background-color: #D7E4C0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek shadow halus */
+    flex: 1 1 300px; /* Lebar minimum section */
+    min-height: 300px; /* Tinggi minimum section */
+  }
+  
+  section h2 {
+    margin-top: 0;
+    color: var(--warna-teks);
+  }
+  
+  #tentang-saya img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  #portofolio ul, #kontak ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #portofolio ul li, #kontak ul li {
+    margin-bottom: 10px;
+  }
+  
